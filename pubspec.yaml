@@ -1,0 +1,54 @@
+name: personnalitytest
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # ----------------------------
+  # 🔥 Firebase Packages
+  # ----------------------------
+  firebase_core: ^4.2.1
+  firebase_analytics: ^11.0.0
+  firebase_remote_config: ^5.3.1
+  firebase_database: ^11.3.1
+
+  # ----------------------------
+  # 🔥 광고 (Google AdMob)
+  # ----------------------------
+  google_mobile_ads: ^5.1.0
+
+  # ----------------------------
+  # 🔥 공유 기능 (카카오톡 포함 ShareSheet)
+  # ----------------------------
+  share_plus: ^10.0.0
+
+  # ----------------------------
+  # 🔥 로컬 저장 (히스토리, 즐겨찾기)
+  # ----------------------------
+  shared_preferences: ^2.3.2
+
+  # ----------------------------
+  # 🔥 결과 애니메이션(Confetti)
+  # ----------------------------
+  confetti: ^0.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # 🔥 앱 내부 JSON 파일 불러오기
+  assets:
+    - res/api/
